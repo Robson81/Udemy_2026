@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(..//imagens/fundo.png) repeat-x;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+   
+}
+
+#topo {
+    background: url(..//imagens/detalhe-topo.png) no-repeat right top;
+    height: 150px;
+    padding-bottom: 25px;
+    border: 1px solid red;
+}
+
+#logo {
+    background: url(..//imagens/logo.png) no-repeat center;
+    width: 152px;
+    height: 66px;
+    padding-top: 50px;
+    text-indent: -1000px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {
+    background: #b10333;
+    float: left;
+    border-radius: 10px;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+    background: url(..//imagens/divisor.png) no-repeat left center;
+
+    
+}
+
+/*
+retirar o background de um único elemtno/primeiro elemento
+pode-se utilizar pseudoclasse:
+
+#menu-topo a:first-child {
+background: none}
+
+#menu-topo a:last-child {
+background: none}
+
+#menu-topo a:nth-child(2): Seleciona exatamente o segundo link do menu.
+#menu-topo a:nth-child(3): Seleciona exatamente o terceiro link do menu.
+
+• a:nth-child(odd): Seleciona todos os links em posições ímpares (1º, 3º, 5º...).
+• a:nth-child(even): Seleciona todos os links em posições pares (2º, 4º, 6º...).
+• a:nth-child(3n): Seleciona de 3 em 3 (o 3º, o 6º, o 9º..
+
+/* Aplica uma cor de fundo cinza claro APENAS nas linhas pares (2, 4, 6, 8...) */
+/*table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+/*
+/* Você também pode mudar a cor das linhas ímpares (1, 3, 5, 7...) se quiser */
+/*table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+*/
+
+
+
+#topo ul .primeiro a {
+        background: none;
+    }
+
+#topo ul a:hover {
+    background: #69001d;
+    color: white;
+    font-size: .95em;
+    border-radius: 10px;
+}
+
+
+
+#topo ul a.ativo {
+    
+    background: white;
+    color: black;
+    font-size: .95em;
+    border-radius: 10px;
+
+}
+
+/*
+
+#menu {
+    background-color: #B02B2E ;
+    width: 500px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 5px;   
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 0.9em;
+}
+ #menu, a, img {
+    margin-top: 0 auto;
+}
+*/
