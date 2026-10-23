@@ -5,8 +5,8 @@
 
 body {
     font-family: Helvetica, "Trebuchet MS", sans-serif;
-    background: #fff url(../img/bg.png) ;
-    margin:15px;
+    background: #fff url(../img/bg.png);
+    margin: 15px;
 }
 
 ul {
@@ -18,7 +18,7 @@ a {
 }
 
 #container {
-    background: #ede9cc;
+    background: #ede9cc url(../img/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 840px;
     max-width: 1180px;
@@ -40,8 +40,8 @@ a {
     left: 0;
     z-index: 1;
 
-    
-    
+
+
 }
 
 .logo a {
@@ -75,16 +75,17 @@ a {
     margin-right: 15px;
     padding-top: 10px;
     margin-top: 15px;
-    
+
 }
 
 
 #conteudo-menu ul li {
     display: inline;
+
     a {
         color: #7E8C54;
         font-size: 0.8em;
-      
+
 
     }
 
@@ -93,7 +94,7 @@ a {
         background: #fff;
         padding: 2px;
     }
-    
+
     button {
         padding: 5px;
         font-size: 0.7em;
@@ -102,22 +103,23 @@ a {
         background: #7e8c54;
         color: white;
 
-}
+
+    }
 }
 
 #conteudo-menu-navegacao {
-    
+
     margin-left: 85px;
     margin-right: 15px;
     position: relative;
-    
+
 }
 
 #conteudo-menu-navegacao ul li {
-    
+
     padding-top: 10px;
     margin-top: 5px;
-   
+
 
     a {
         color: #7E8C54;
@@ -132,17 +134,59 @@ a {
         background: #fff;
         padding: 2px;
     }
-    
+
 }
 
 #img figure {
 
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
- #conteudo-principal   {
+#conteudo-principal {
     margin-top: 10px;
-    background: url(../img/bg-container.png) repeat-y center; 
- } 
+    background: url(../img/bg-container.png) repeat-y center;
+    position: relative;
+    min-height: 900px;
+    min-width: 840px;
+    max-width: 1180px;
+    
+    #principal {
+        width: 550px;
+        padding: 15px;
+        border: 1px solid red;
+        
+        
+    }
+}
+
+/*
+Área de conteúdos *********************************
+*/
+
+#area-principal {
+    background: red;
+    float: left;
+    width: 50%;
+    
+    
+}
+
+#area-lateral {
+    background: blue;
+    float: right;
+    width: 50%;
+
+}
+
+.conteudo {
+     margin: 0 auto;
+     width: 90%;
+     border: 1px solid white;
+
+}
+
+#rodape {
+    clear: both;
+}
