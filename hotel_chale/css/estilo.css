@@ -144,49 +144,83 @@ a {
     right: 0;
 }
 
-#conteudo-principal {
-    margin-top: 10px;
-    background: url(../img/bg-container.png) repeat-y center;
-    position: relative;
-    min-height: 900px;
-    min-width: 840px;
-    max-width: 1180px;
-    
-    #principal {
-        width: 550px;
-        padding: 15px;
-        border: 1px solid red;
-        
-        
-    }
-}
-
 /*
 Área de conteúdos *********************************
 */
 
 #area-principal {
-    background: red;
     float: left;
     width: 50%;
-    
-    
+    background: url(../img/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0;
+
+    h2 {
+        color: #7d7840;
+        font-size: 1.1em;
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1em;
+        margin-bottom: 10px;
+        text-align: justify;
+        text-indent: 2em;
+    }
+
 }
 
 #area-lateral {
-    background: blue;
     float: right;
     width: 50%;
-
+    background: url(../img/bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0;
 }
 
 .conteudo {
-     margin: 0 auto;
-     width: 90%;
-     border: 1px solid white;
+    margin: 0 auto;
+    width: 90%;
+   
+
+    
 
 }
 
+
+    /*formataçoes área lateral*/
+    #beneficios li {
+        padding: 8px;
+        border-bottom: 1px solid #f3efcb ;
+        height: 6em;
+
+        a img {
+            float: left;
+            margin-right: 8px;
+        }
+
+        a p {
+            font-size: 0.8em;
+            color: #000;
+        }
+
+        a h3 {
+            font-size: 1.1em;
+            color: #615b2d;
+            padding: 5px 0;
+            background: url(../img/ornamento.png) no-repeat right;
+        }
+    }
+
+    #beneficios li:hover {
+        background: #f6f3d6;
+        cursor: pointer;
+    }
+
 #rodape {
     clear: both;
+    background: white url(../img/bg-rodape.png) top center repeat-x;
+    line-height: 2.5em;
+    color: #7e8c54c0;
+    font-size: 1.2em;
+    text-align: center;
 }
